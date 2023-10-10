@@ -12,3 +12,15 @@ body{
 .carousel-item img{
     height: 90vh;
 }
+.card {
+    transition: transform 0.2s ease;
+    overflow: hidden;
+    }
+
+.card:hover {
+     transform: scale(1.02);
+}
+i:hover{
+    transform: scale(1.1);
+  
+}
